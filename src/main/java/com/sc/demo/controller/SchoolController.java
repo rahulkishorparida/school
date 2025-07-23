@@ -14,5 +14,9 @@ public class SchoolController {
 	public String index() {
 		return "home";
 	}
+	@GetMapping("/")
+	public String hh() {
+		return "home";
+	}
 
 }
